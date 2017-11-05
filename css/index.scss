@@ -1,0 +1,22 @@
+$bannerwidth:100%;
+$bannerheight:100%;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.banner{
+  width:$bannerwidth ;
+  height:$bannerheight ;
+}
+.zhezhao{
+  width:$bannerwidth ;
+  height:$bannerheight;
+  background-color: rgba(0,0,0,0.3);
+  position:absolute;
+  top: 0;
+}
+.banner img{
+  width:$bannerwidth;
+  height:$bannerheight ;
+}
